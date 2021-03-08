@@ -1,0 +1,96 @@
+body{
+  background-image: url('hatter.png');
+  padding: 15px;
+}
+
+h1{
+  text-align:center;
+  font-size: 222%;
+  margin: 0px 0px 10px;
+  color: #eb7100;
+  text-transform: uppercase;
+}
+h2 {
+  color: #eb7100;
+}
+
+
+p{
+  text-align:justify;
+}
+
+p:first-letter{
+  margin-left: 25px;
+}
+
+.f{
+  font-weight:bold;
+}
+
+.keret{
+  margin: 10px auto;
+  text-align: center;
+  padding: 10px;
+  font-style: italic;
+  font-size: 75%;
+  background-color: #f1f1f1;
+  box-shadow: 10px 10px 5px #cfb7a2;
+}
+
+#erdekesseg{
+  width:250px;
+  float:right;
+  margin: 0px 0px 20px 15px;
+  background-color: #ffffcc;
+  -ms-transform: rotate(5deg);
+  -webkit-transform: rotate(5deg);
+  transform: rotate(5deg)
+}
+
+#bokor{
+
+  height: 350px;
+  width: 550px;
+  background-image: url("bokor.jpg");
+  border: 5px solid #eb7100;
+  position: relative; top: 0px; left: 20px;
+}
+
+#termes{
+  float:left;
+  height:400px;
+  margin-right: 25px;
+}
+
+li{
+  margin: 3px 0px;
+  font-style: italic;
+  list-style-image: url(bogyo.png);
+}
+
+.blokktores{
+  clear: both;
+}
+
+.div {
+  width: 600px;
+  background-image: url(bokot.jpg)
+}
+
+#bevezeto {
+  text-align: center;
+  background-color: white;
+width: 600px;
+height: 420px;
+position: relative; left:32%;
+padding: 15px;
+box-shadow: rgb(70, 70, 70) 10px 15px 20px;
+}
+#tudtad {
+  text-align: center;
+  background-color: white;
+  height: 200px;
+  width: 225px;
+  float: right;
+  box-shadow: gray 10px 10px 10px;
+}
